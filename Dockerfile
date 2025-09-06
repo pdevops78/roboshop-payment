@@ -1,5 +1,5 @@
 FROM                     docker.io/python3.6
-RUN                      mkdir /
+RUN                      mkdir /app
 WORKDIR                  /app
 RUN                      pip3.6 install -r requirements.txt
 COPY                     run.sh  /app/run.sh
